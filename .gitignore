@@ -1,32 +1,31 @@
-# Prerequisites
-*.d
+#include <bits/stdc++.h>
+using namespace std;
+int a,b,c,res;
+main()
+{
+    cout<<"                              Random number                                     ";
+    cout<<endl;
+    cout<<"-----------DATA-------------------";
+    cout<<endl;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+    cout<<"min & max    ";
+    cout<<endl;
+    cin>>a>>b;
+    cout<<endl;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+    cout<<"---------INFORMATION--------------";
+    cout<<endl;
+    cout<<"Min: " << a;
+    cout<<endl;
+    cout<<"Max: " << b;
+    cout<<endl;
+    srand(time(NULL));
+int c=rand()%(b-a+1)+a;
+    cout<<"----------RESULT------------------";
+    cout<<endl;
+    cout<<"Random number is  " <<    c  ;
+    cout<<endl;
 
-# Fortran module files
-*.mod
-*.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+}
