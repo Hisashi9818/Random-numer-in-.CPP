@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std;                                 //This is C++  (.cpp) file
 int a,b,c,res;
 main()
 {
@@ -9,7 +9,7 @@ main()
     cout<<endl;
 
 
-    cout<<"min & max    ";
+    cout<<"min & max    ";      
     cout<<endl;
     cin>>a>>b;
     cout<<endl;
