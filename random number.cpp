@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;                                 //This is C++  (.cpp) file
-int a,b,c,res;
+int a,b;
 main()
 {
     cout<<"                              Random number                                     ";
@@ -10,9 +10,13 @@ main()
 
 
     cout<<"min & max    ";      
+    cout<<"Min: ";
+    cin>>a;
     cout<<endl;
-    cin>>a>>b;
+    cout<<"Max: ";
+    cin>>b; 
     cout<<endl;
+    
 
     cout<<"---------INFORMATION--------------";
     cout<<endl;
